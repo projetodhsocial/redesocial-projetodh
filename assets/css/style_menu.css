@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* barra de menu principal */
+.navbar-default {
+    background-color: #7159c1;
+    text-align: center;
+}
+ .navbar-brand {
+     margin-top: 10px;
+}
+ 
+ /* elemento que tem o nome "Projeto social" */
+ .navbar-default .navbar-brand {
+    color: #fff;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+ /* item de menu */
+ .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+ 
+ /* mouse over no item de menu */
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+    color: #ffcc4d;
+}
+
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
