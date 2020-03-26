@@ -1,7 +1,7 @@
 <?php $titulo_pagina = "Quero ajudar"; ?>
 <?php require_once('./inc/head.php') ?>
 <?php require_once('./inc/header.php') ?>
-<link rel="stylesheet" href="./assets/css/style_queroajudar.css">
+
 
 <body>
 
@@ -20,7 +20,7 @@
     <section id="postagens">
     <p></p>
     <div class="card" style="width: 20rem; margin:30px;">
-  <img class="card-img-top" src="../redesocial-projetodh/assets/css/img/foto-depressao.jpg" alt="Imagem depressão">
+  <img class="card-img-top" src="./assets/img/foto-depressao.jpg" alt="Imagem depressão">
   <div class="card-body">
     <h5 class="card-title">"Preciso muito falar com alguém"</h5>
     <p class="card-text">Estou há alguns meses sofrendo de ansiedade e depressão. Preciso de alguém para conversar, por favor, me ajude!</p>
@@ -28,7 +28,7 @@
   </div>
 </div>
 <div class="card" style="width: 20rem; margin:30px;">
-  <img class="card-img-top" src="../redesocial-projetodh/assets/css/img/foto-empreendedor.jpg" alt="Imagem empreendedor">
+  <img class="card-img-top" src="./assets/img/foto-empreendedor.jpg" alt="Imagem empreendedor">
   <div class="card-body">
     <h5 class="card-title">"Não consigo fazer meu site"</h5>
     <p class="card-text">Tenho um projeto social e estou com dificuldades para fazer um site como um portal. Alguém poderia ajudar?</p>
@@ -37,7 +37,7 @@
 </div>
 
 <div class="card" style="width: 20rem; margin:30px;">
-  <img class="card-img-top" src="../redesocial-projetodh/assets/css/img/foto-idosos.jpg" alt="Imagem idoso">
+  <img class="card-img-top" src="./assets/img/foto-idosos.jpg" alt="Imagem idoso">
   <div class="card-body">
     <h5 class="card-title">"Alguém poderia acompanhar minha mãe em uma consulta médica?"</h5>
     <p class="card-text">Agendei um cardiologista para minha mãe, mas tenho uma reunião e não poderei acompanhá-la. Você poderia levá-la até o médico?</p>

@@ -1,13 +1,13 @@
 <?php $titulo_pagina = "Cadastro"; ?>
 <?php require_once('./inc/head.php') ?>
 <?php require_once('./inc/header.php') ?>
-<link rel="stylesheet" href="./assets/css/style_cadastro.css">
+
 
 <body>
 
         <section>
             <!-- <p>A colaboração gera o progresso de todos, por isso vamos nos conectar e ajudar quem precisa.</p> -->
-            <img src="../redesocial-projetodh/assets/css/img/foto-conexao-projetodh.png" width="500" height="600px">
+            <img src="./assets/img/foto-conexao-projetodh.png" width="500" height="600px">
             <form class="col-md-6">
                 <h4>Faça seu cadastro xXXXxX </h4>
                 <br>
