@@ -34,18 +34,6 @@ body {
     color: #ffcc4d;
 }
 
-/* Mobile version
-.navbar-default .navbar-toggle {
-    border-color: #DDD;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #DDD;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #CCC;
-} */
-
 /* container  */
 .container-fluid{
     min-width: 100%;
