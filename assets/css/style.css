@@ -1,0 +1,57 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* barra de menu principal */
+.navbar-default{
+    background-color: #7159c1;
+    text-align: center;
+}
+
+ /* elemento que tem o nome "Projeto social" */
+ .navbar-default .navbar-brand {
+    margin-top: 10px;
+    color: #fff;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+ /* item de menu */
+ .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+ 
+ /* mouse over no item de menu */
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+    color: #ffcc4d;
+}
+.container-home {
+    width: 100%;
+    min-height: 90vh;
+    margin-right: 0;
+    background-color: #7159c1;
+    /* top: 200px; */
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card {
+    margin-top: calc(100% - 85%);
+    -webkit-box-shadow: 9px 10px 58px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 58px 3px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 58px 3px rgba(0,0,0,0.75);
+}
+ .contact {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #eee;
+}

@@ -9,4 +9,5 @@
     <!-- <link rel="stylesheet" href="./assets/css/style_menu.css"> -->
     <!-- <link rel="stylesheet" href="./assets/css/style_cadastro.css"> -->
     <link rel="stylesheet" href="./assets/css/style_queroajudar.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
