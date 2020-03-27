@@ -11,10 +11,10 @@
                         <a class="nav-link" href="./index.php">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./cadastro.php">Cadastro</a>
