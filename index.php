@@ -6,7 +6,7 @@
 
   <div class="row d-flex align-items-start flex-column">
     <div class="col-md-6 p-4">
-      <div class="card">
+      <div class="card card-homepage">
         <div class="card-body">
           <h3 class="card-title mb-3">Login</h3>
           <form>
@@ -31,7 +31,7 @@
     <div class="container my-5">
       <div class="col-md-12">
 
-      <h2 class="text-uppercase text-center text-monospace my-5">Sobre</h2>
+      <a name="sobre"><h2 class="text-uppercase text-center text-monospace my-5">Sobre</h2></a>
 
       <p class="text-sm-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolores blanditiis aspernatur nobis autem, a in itaque recusandae eaque, repellat suscipit debitis? Aspernatur dicta, cum rerum delectus laboriosam sunt odio.</p>
       
@@ -46,19 +46,23 @@
 
     <div class="container contact">
 
-    <h2 class="text-uppercase text-center text-monospace mt-4 mb-3">Contato</h2>
+    <a name="contato"><h2 class="text-uppercase text-center text-monospace mt-4 mb-3">Contato</h2></a>
     
       <form>
+      <div class="form-group">
+        <label for="nomecompleto">Nome Completo</label>
+        <input type="text" class="form-control" id="nomecompleto" placeholder="Fulado de Tal">
+      </div>
       <div class="form-group">
         <label for="exampleFormControlInput1">Endereço de email</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
       </div>
-
+    
       <div class="form-group">
         
       </div>
       <div class="form-group">
-        <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+        <label for="exampleFormControlTextarea1">Deixe sua mensagem</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
     </form>
