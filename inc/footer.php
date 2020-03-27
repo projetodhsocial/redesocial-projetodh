@@ -1,10 +1,10 @@
-<footer class="container-fluid footer">
-    <article class="row footer">
-        <p class="text-center">Projeto DH Social <sup><small>&copy;</small></sup> <?= date("Y"); ?></p>
-        <a href="#"><i class="fab fa-facebook-square"></a></i>
-        <a href="#"><i class="fab fa-twitter-square"></a></i>
-        <a href="#"><i class="fab fa-linkedin"></a></i>
-        <a href="#"><i class="fab fa-youtube"></a></i>
+<footer class="container-fluid footer d-flex">
+    <article class="col mb-3 footer">
+        <p class="text-center mt-4">Projeto DH Social <sup><small>&copy;</small></sup> <?= date("Y"); ?></p>
+        <a href="#"><i class="fab fa-facebook-square color-icon"></i></a>
+        <a href="#"><i class="fab fa-twitter-square color-icon"></i></a>
+        <a href="#"><i class="fab fa-linkedin color-icon"></i></a>
+        <a href="#"><i class="fab fa-whatsapp-square color-icon"></i></a>
     </article>
 </footer>
 
