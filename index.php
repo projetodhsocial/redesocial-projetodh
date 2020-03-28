@@ -11,10 +11,10 @@
           <h3 class="card-title mb-3">Login</h3>
           <form>
             <div >
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="LOGIN">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Login">
             </div>
             <div class="form-group my-4">
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="SENHA">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
             </div>
             <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -28,15 +28,21 @@
   </section>
 
   <section>
-    <div class="container my-5">
+    <div class="container my-5 sobre">
       <div class="col-md-12">
 
       <a name="sobre"><h2 class="text-uppercase text-center text-monospace my-5">Sobre</h2></a>
 
-      <p class="text-sm-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolores blanditiis aspernatur nobis autem, a in itaque recusandae eaque, repellat suscipit debitis? Aspernatur dicta, cum rerum delectus laboriosam sunt odio.</p>
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolores blanditiis aspernatur nobis autem, a in itaque recusandae eaque, repellat suscipit debitis? Aspernatur dicta, cum rerum delectus laboriosam sunt odio.</p>
       
       <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolores blanditiis aspernatur nobis autem, a in itaque recusandae eaque, repellat suscipit debitis? Aspernatur dicta, cum rerum delectus laboriosam sunt odio.</p>
 
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolores blanditiis aspernatur nobis autem, a in itaque recusandae eaque, repellat suscipit debitis? Aspernatur dicta, cum rerum delectus laboriosam sunt odio.</p>
+      
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolores blanditiis aspernatur nobis autem, a in itaque recusandae eaque, repellat suscipit debitis? Aspernatur dicta, cum rerum delectus laboriosam sunt odio.</p>
+      
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolores blanditiis aspernatur nobis autem, a in itaque recusandae eaque, repellat suscipit debitis? Aspernatur dicta, cum rerum delectus laboriosam sunt odio.</p>
+      
       <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolores blanditiis aspernatur nobis autem, a in itaque recusandae eaque, repellat suscipit debitis? Aspernatur dicta, cum rerum delectus laboriosam sunt odio.</p>
     </div>
     </div>
@@ -69,8 +75,4 @@
     <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
   </section>
-
-
-  
-  
 <?php require_once('./inc/footer.php') ?>
