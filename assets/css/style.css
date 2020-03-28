@@ -20,6 +20,7 @@ body {
     height: 50px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    font-size: 2rem;
 }
 
  /* item de menu */
@@ -43,8 +44,11 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.sobre {
+    padding: 0;
+} 
 .card-homepage {
-    margin-top: calc(100% - 85%);
+    margin-top: calc(100% - 80%);
     -webkit-box-shadow: 9px 10px 58px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: 9px 10px 58px 3px rgba(0,0,0,0.75);
     box-shadow: 9px 10px 58px 3px rgba(0,0,0,0.75);
@@ -57,17 +61,54 @@ body {
 }
 .footer {
     width: 100%;
-    height: 100px;
-    
+    height: 110px;
     background-color: #7159c1;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
-.fab {
+.color-icon{
     font-size: 2rem;
     color: rgba(0, 0, 0, 0.383);
     padding: 5px;
 }
-.fab:hover {
+.color-icon:hover {
     color: #ffcc4d;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffcc4d;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(255, 205, 77, 0.431);
+}
+
+/* botao home  */
+.up {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #ffcc4d;
+    top: -6.5rem;
+    right: 1.5%;
+    border-radius: 100%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+  }
+.up i {
+    color: #16162d;
+    font-size: 1rem;
+    margin: auto;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #7159c1fc;
+    }
+    70% {
+        box-shadow: 0 0 0 2rem rgba(87, 90, 253, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 #7159c1fc;
+    }
 }
