@@ -6,6 +6,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
 }
 /* barra de menu principal */
 .navbar-default{
@@ -28,7 +29,12 @@ body {
     color: #fff;
     text-transform: uppercase;
 }
- 
+/* menu toggle, apenas para referencia */
+.navbar-toggler-icon {
+    background-color: #ffcc4d;
+}
+ /* /menu toggle, apenas para referencia */
+
  /* mouse over no item de menu */
  .navbar-default .navbar-nav > li > a:hover,
  .navbar-default .navbar-nav > li > a:focus {
@@ -111,4 +117,30 @@ body {
     100% {
         box-shadow: 0 0 0 0 #7159c1fc;
     }
+}
+
+/* fim botao home  */
+
+/* style para tela de cadastro  */
+.section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 80px;
+
+}
+
+.form-cadastro h4 {
+    font-weight: 900;
+    font-size: 30px;
+    color: #7159c1;
+}   
+.form-cadastro{
+    margin-top: 100px;
+    font-size: 16px;
+    padding: 60px;
+}
+.form-control {
+    font-size: 20px;
+    height: 50px;
 }

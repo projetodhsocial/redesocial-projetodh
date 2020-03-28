@@ -72,7 +72,7 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
     </form>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="submit" class="btn btn-primary">Entrar</button>
     </div>
   </section>
 <?php require_once('./inc/footer.php') ?>
