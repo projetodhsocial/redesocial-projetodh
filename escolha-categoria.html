@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Escolha uma categoria</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style_escolha_categoria.css">
+        </head>
+        <body>
+    <header>  
+        <h2> Escolha uma categoria </h2>
+
+        </header> 
+        <div class="container-form" id="container-form">
+          <form action="" class="form-group" id="form-group">  
+
+            <label for="exampleFormControlSelect1" id="categoria">Escolha uma categoria</label>
+ <select class="form-control" id="exampleFormControlSelect1">
+             <option selected disabled>Selecione</option>
+              <option>Idoso</option>
+              <option>Empreender</option>
+              <option>Pessoa com depressão</option>
+ </select>
+            <h4> Descreva sua necessidade</h4>
+              <label for="exampleFormControlInput1" id="titulo">Titulo</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" maxlength="20" placeholder="Escreva aqui">
+           <label for="exampleFormControlTextarea1"id="descricao">Descrição<br></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+        
+            <button class="btn btn-primary" id="botao" type="submit" value="Submit">Enviar</button>
+            </form>      
+          </div>
+          <div class="transparente-background" id="transparente-background"></div>
+          <div class="container-modal" id="container-modal"> 
+          <h6>Obrigada pela a sua contribuição</h6>
+          <button id="ok">Ok</button>
+          </div>
+          <script src="assets\js\escolhaCategoria.js"></script>
+       </body>
+</html>
