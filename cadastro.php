@@ -5,44 +5,70 @@
 
 <body>
 
-        <section>
+        <section class="section">
             <!-- <p>A colaboração gera o progresso de todos, por isso vamos nos conectar e ajudar quem precisa.</p> -->
             <img src="./assets/img/foto-conexao-projetodh.png" width="500" height="600px">
-            <form class="col-md-6">
+            <form class="col-md-6 form-cadastro">
                 <h4>Faça seu cadastro xXXXxX </h4>
                 <br>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="inputName" placeholder="Nome">
+                        <input type="text" class="form-control form-control-cadastro" id="inputName" placeholder="Nome">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="inputSurname" placeholder="Sobrenome">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                        <input type="text" class="form-control form-control-cadastro" id="inputSurname" placeholder="Sobrenome">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <input type="number" class="form-control" id="inputCelular" placeholder="Celular">
+                        <input type="email" class="form-control form-control-cadastro" id="inputEmail4" placeholder="Email">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="date" class="form-control" id="inputDataDeNascimento" placeholder="Nascimento">
+                        <input type="password" class="form-control form-control-cadastro" id="inputPassword4" placeholder="Senha">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="inputcidade" placeholder="Cidade">
+                        <input type="number" class="form-control form-control-cadastro" id="inputCelular" placeholder="Celular">
                     </div>
                     <div class="form-group col-md-6">
-                        <select id="inputEstado" class="form-control" placeholder="Estado">
-                            <option selected>Estado</option>
-                            <option>...</option>
+                        <input type="date" class="form-control form-control-cadastro" id="inputDataDeNascimento" placeholder="Nascimento">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control form-control-cadastro" id="inputcidade" placeholder="Cidade">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <select id="inputEstado" class="form-control form-control-cadastro">
+                            <option selected>Estado...</option>
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP</option>
+                            <option>AM</option>
+                            <option>BA</option>
+                            <option>CE</option>
+                            <option>DF</option>
+                            <option>ES</option>
+                            <option>GO</option>
+                            <option>MA</option>
+                            <option>MT</option>
+                            <option>MS</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PB</option>
+                            <option>PR</option>
+                            <option>PE</option>
+                            <option>PI</option>
+                            <option>RJ</option>
+                            <option>RN</option>
+                            <option>RS</option>
+                            <option>RO</option>
+                            <option>RR</option>
+                            <option>SC</option>
+                            <option>SP</option>
+                            <option>SE</option>
+                            <option>TO</option>
                         </select>
                     </div>
                 </div>
@@ -54,7 +80,7 @@
                         </label>
                     </div>
                 </div>
-                <button type="submit" class="btn">Cadastrar</button>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
             </form>
         </section>
 
